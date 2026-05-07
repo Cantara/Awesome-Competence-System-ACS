@@ -1,0 +1,42 @@
+version: "0.14"
+
+entity:
+  name: Awesome-Competence-System-ACS
+  type: open-source-library
+  description: >
+    Your one stop shop for employee skill, competency and experience search.
+
+authority:
+  owner: Cantara — Norwegian Software Development Foundation
+  repo: https://github.com/Cantara/Awesome-Competence-System-ACS
+  license: Apache-2.0
+  org_manifest: https://wiki.cantara.no/knowledge.yaml
+
+discovery:
+  provenance: canonical
+  confidence: medium
+  staleness_days: 30
+
+signing:
+  scheme: ed25519
+  scope: this-manifest
+  public_key: https://wiki.cantara.no/.well-known/kcp-signing-key.pub
+
+kcp_version: "0.14"
+project: Awesome-Competence-System-ACS
+language: en
+license: "Apache-2.0"
+runtime: HTML
+indexing: open
+updated: "2026-05-07"
+  stars: 2
+
+units:
+
+  - id: readme
+    path: README.md
+    intent: "What is Awesome-Competence-System-ACS, what does it do, and how do I install and use it?"
+    scope: global
+    audience: [human, agent, developer]
+    validated: "2026-05-07"
+    triggers: [overview, install, usage, awesome-competence-system-acs, getting started]
